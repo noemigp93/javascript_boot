@@ -29,7 +29,14 @@ function contarCaracteres(nombreUsuario){
 //Solicitar el nombre completo a un usuario e indicarle cuantas vocales tiene.
 
 
+numeroVocales(nombreUsuario);
 function numeroVocales(nombreUsuario){
     
+    console.log();
+    console.log("tu nombre tiene " + nombreUsuario.match(/[aeiou]/gi).length + " vocales");
     
 }
+
+
+    
+
